@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-студія "СІТЕР" | Івано-Франківськ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <span class="logo-text">СІТ<span>ЕР</span></span>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#portfolio">Роботи</a></li>
+                    <li><a href="#team">Команда</a></li>
+                    <li><a href="#clients">Клієнти</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                    <li><a href="#contact" class="btn-nav">Контакти</a></li>
+                </ul>
+                
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Головна секція -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Створюємо <span>красиві сайти</span> для вашого бізнесу</h1>
+                    <p>Веб-студія "СІТЕР" з Івано-Франківська - ваш надійний партнер у цифровому просторі. 
+                       Працюємо з 2018 року, створили понад 50 успішних проектів для клієнтів з різних галузей.</p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-text">Успішних проектів</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-text">Років досвіду</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-text">Задоволених клієнтів</div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Обговорити проект
+                        </a>
+                        <a href="#portfolio" class="btn btn-secondary">
+                            <i class="fas fa-eye"></i>
+                            Наші роботи
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         alt="Веб-розробка">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Постійні клієнти -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <h2 class="section-title">Нам довіряють</h2>
+            <p class="section-subtitle">Працюємо з компаніями різного розміру та напрямків</p>
+            
+            <div class="clients-grid">
+                <div class="client-logo">
+                    <i class="fas fa-building"></i>
+                    <span>TechCorp</span>
+                </div>
+                <div class="client-logo">
+                    <i class="fas fa-store"></i>
+                    <span>FashionStore</span>
+                </div>
+                <div class="client-logo">
+                    <i class="fas fa-utensils"></i>
+                    <span>CafeDeluxe</span>
+                </div>
+                <div class="client-logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>EduCenter</span>
+                </div>
+                <div class="client-logo">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>MedClinic</span>
+                </div>
+                <div class="client-logo">
+                    <i class="fas fa-car"></i>
+                    <span>AutoService</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Послуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Наші послуги</h2>
+            <p class="section-subtitle">Повний спектр веб-послуг для вашого бізнесу</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Сайти-візитки</h3>
+                    <p>Сучасні сайти для малого бізнесу з адаптивним дизайном та SEO-оптимізацією</p>
+                    <span class="price">від 8 000 грн</span>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Інтернет-магазини</h3>
+                    <p>Повнофункціональні онлайн-магазини з системами оплати та доставки</p>
+                    <span class="price">від 15 000 грн</span>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Мобільні додатки</h3>
+                    <p>Додатки для iOS та Android з інтуїтивним інтерфейсом</p>
+                    <span class="price">від 20 000 грн</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Останні роботи -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Останні роботи</h2>
+            <p class="section-subtitle">Проекти, якими ми особливо пишаємося</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                         alt="Корпоративний сайт">
+                    <div class="portfolio-info">
+                        <h3>TechCorp</h3>
+                        <p>Корпоративний сайт для IT-компанії</p>
+                        <span class="portfolio-date">Січень 2024</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                         alt="Інтернет-магазин">
+                    <div class="portfolio-info">
+                        <h3>FashionStore</h3>
+                        <p>Інтернет-магазин модного одягу</p>
+                        <span class="portfolio-date">Грудень 2023</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                         alt="Веб-додаток">
+                    <div class="portfolio-info">
+                        <h3>FinanceApp</h3>
+                        <p>Фінансовий веб-додаток</p>
+                        <span class="portfolio-date">Листопад 2023</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                         alt="Лендінг пейдж">
+                    <div class="portfolio-info">
+                        <h3>StartUp Launch</h3>
+                        <p>Лендінг для запуску стартапу</p>
+                        <span class="portfolio-date">Жовтень 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Команда -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Наша команда</h2>
+            <p class="section-subtitle">Професіонали, які люблять свою справу</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                             alt="Олександр">
+                    </div>
+                    <h3>Олександр Петренко</h3>
+                    <p class="member-role">Frontend Developer</p>
+                    <p class="member-bio">Спеціалізується на створенні сучасних інтерфейсів. Працює з React та Vue.js</p>
+                    <div class="member-skills">
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=300&q=80" 
+                        alt="Марія Коваль"/>
+                    </div>
+                    <h3>Марія Коваль</h3>
+                    <p class="member-role">UI/UX Designer</p>
+                    <p class="member-bio">Створює зручні та красиві інтерфейси. Обожнює мінімалізм та юзер-френдлі дизайн</p>
+                    <div class="member-skills">
+                        <span>Figma</span>
+                        <span>Adobe XD</span>
+                        <span>Photoshop</span>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                             alt="Андрій">
+                    </div>
+                    <h3>Андрій Шевченко</h3>
+                    <p class="member-role">Backend Developer</p>
+                    <p class="member-bio">Експерт у серверній розробці. Працює з Node.js, PHP та базами даних</p>
+                    <div class="member-skills">
+                        <span>Node.js</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" 
+                             alt="Анна">
+                    </div>
+                    <h3>Анна Мельник</h3>
+                    <p class="member-role">Project Manager</p>
+                    <p class="member-bio">Координує проекти та забезпечує зв'язок з клієнтами. Дотримується дедлайнів</p>
+                    <div class="member-skills">
+                        <span>Agile</span>
+                        <span>Scrum</span>
+                        <span>Комунікація</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Відгуки -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Відгуки клієнтів</h2>
+            <p class="section-subtitle">Що говорять про нас наші клієнти</p>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-photo">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Ірина Лисенко</h4>
+                            <p>Власник кав'ярні "CoffeeTime"</p>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <p>"Дуже задоволена співпрацею! Зробили сайт швидко та якісно. Кількість клієнтів зросла на 40%!"</p>
+                    </div>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-photo">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Віктор Павленко</h4>
+                            <p>Директор "AutoService"</p>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <p>"Професійний підхід, креативні рішення. Сайт працює стабільно, клієнти знаходять нас легко."</p>
+                    </div>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-photo">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Оксана Бойко</h4>
+                            <p>Засновниця "FashionStore"</p>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <p>"Інтернет-магазин працює відмінно! Продажі зросли, адмінка зручна. Рекомендую!"</p>
+                    </div>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-photo">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="reviewer-info">
+                            <h4>Сергій Іваненко</h4>
+                            <p>CEO "TechCorp"</p>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        <p>"Складний корпоративний портал зроблено вчасно та з дотриманням всіх вимог. Дякую команді!"</p>
+                    </div>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакти -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Зв'яжіться з нами</h2>
+            <p class="section-subtitle">Готові розпочати ваш проект? Напишіть нам!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Адреса</h3>
+                            <p>м. Івано-Франківськ, вул. Бельведерська, 32А</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+38 (0342) 74-08-92</p>
+                            <p>+38 (067) 123-45-67</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@siter.in.ua</p>
+                            <p>office@siter.in.ua</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Графік роботи</h3>
+                            <p>Пн-Пт: 9:00 - 18:00</p>
+                            <p>Сб-Нд: За домовленістю</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Написати нам</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Ваше ім'я" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Ваш email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Телефон">
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="service">
+                                <option value="">Оберіть послугу</option>
+                                <option value="website">Сайт-візитка</option>
+                                <option value="ecommerce">Інтернет-магазин</option>
+                                <option value="app">Мобільний додаток</option>
+                                <option value="seo">SEO-просування</option>
+                                <option value="design">Дизайн</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Опишіть ваш проект..." rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Надіслати повідомлення
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>СІТЕР</h3>
+                    <p>Веб-студія з Івано-Франківська. Створюємо якісні сайти для бізнесу вже понад 5 років.</p>
+                    <div class="footer-stats">
+                        <div class="footer-stat">
+                            <strong>50+</strong>
+                            <span>Проектів</span>
+                        </div>
+                        <div class="footer-stat">
+                            <strong>30+</strong>
+                            <span>Клієнтів</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Посилання</h4>
+                    <a href="#home">Головна</a>
+                    <a href="#services">Послуги</a>
+                    <a href="#portfolio">Роботи</a>
+                    <a href="#team">Команда</a>
+                    <a href="#reviews">Відгуки</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Контакти</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> м. Івано-Франківськ, вул. Бельведерська, 32А</p>
+                    <p><i class="fas fa-phone"></i> +38 (0342) 74-08-92</p>
+                    <p><i class="fas fa-envelope"></i> info@siter.in.ua</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Час роботи</h4>
+                    <p>Понеділок - П'ятниця: 9:00 - 18:00</p>
+                    <p>Субота - Неділя: За домовленістю</p>
+                    <p>Технічна підтримка: 24/7</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Веб-студія "СІТЕР". Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
